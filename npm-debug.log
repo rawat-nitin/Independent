@@ -1,0 +1,360 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'json-server', '-g' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData json-server
+8 silly fetchNamedPackageData json-server
+9 silly mapToRegistry name json-server
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/json-server
+13 verbose request uri https://registry.npmjs.org/json-server
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 1:38:56 PM
+16 verbose request id bc9b9d830ad0455f
+17 http request GET https://registry.npmjs.org/json-server
+18 http 200 https://registry.npmjs.org/json-server
+19 verbose headers { date: 'Wed, 05 Jan 2022 04:38:57 GMT',
+19 verbose headers   'content-type': 'application/json',
+19 verbose headers   'transfer-encoding': 'chunked',
+19 verbose headers   connection: 'keep-alive',
+19 verbose headers   'cf-ray': '6c8a051f48d28d28-KIX',
+19 verbose headers   'cache-control': 'public, max-age=300',
+19 verbose headers   etag: 'W/"233f5871d7189083e253e23d2e7cee93"',
+19 verbose headers   'last-modified': 'Wed, 06 Oct 2021 01:03:49 GMT',
+19 verbose headers   vary: 'accept-encoding, accept',
+19 verbose headers   'cf-cache-status': 'REVALIDATED',
+19 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+19 verbose headers   'x-amz-replication-status': 'COMPLETED',
+19 verbose headers   server: 'cloudflare',
+19 verbose headers   'content-encoding': 'gzip' }
+20 silly get cb [ 200,
+20 silly get   { date: 'Wed, 05 Jan 2022 04:38:57 GMT',
+20 silly get     'content-type': 'application/json',
+20 silly get     'transfer-encoding': 'chunked',
+20 silly get     connection: 'keep-alive',
+20 silly get     'cf-ray': '6c8a051f48d28d28-KIX',
+20 silly get     'cache-control': 'public, max-age=300',
+20 silly get     etag: 'W/"233f5871d7189083e253e23d2e7cee93"',
+20 silly get     'last-modified': 'Wed, 06 Oct 2021 01:03:49 GMT',
+20 silly get     vary: 'accept-encoding, accept',
+20 silly get     'cf-cache-status': 'REVALIDATED',
+20 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+20 silly get     'x-amz-replication-status': 'COMPLETED',
+20 silly get     server: 'cloudflare',
+20 silly get     'content-encoding': 'gzip' } ]
+21 verbose get saving json-server to /home/natalia/.npm/registry.npmjs.org/json-server/.cache.json
+22 silly install normalizeTree
+23 silly loadCurrentTree Finishing
+24 silly loadIdealTree Starting
+25 silly install loadIdealTree
+26 silly cloneCurrentTree Starting
+27 silly install cloneCurrentTreeToIdealTree
+28 silly cloneCurrentTree Finishing
+29 silly loadShrinkwrap Starting
+30 silly install loadShrinkwrap
+31 silly loadShrinkwrap Finishing
+32 silly loadAllDepsIntoIdealTree Starting
+33 silly install loadAllDepsIntoIdealTree
+34 silly resolveWithNewModule json-server@0.17.0 checking installable status
+35 silly cache add args [ 'json-server', null ]
+36 verbose cache add spec json-server
+37 silly cache add parsed spec Result {
+37 silly cache add   raw: 'json-server',
+37 silly cache add   scope: null,
+37 silly cache add   name: 'json-server',
+37 silly cache add   rawSpec: '',
+37 silly cache add   spec: 'latest',
+37 silly cache add   type: 'tag' }
+38 silly addNamed json-server@latest
+39 verbose addNamed "latest" is being treated as a dist-tag for json-server
+40 info addNameTag [ 'json-server', 'latest' ]
+41 silly mapToRegistry name json-server
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry uri https://registry.npmjs.org/json-server
+45 verbose addNameTag registry:https://registry.npmjs.org/json-server not in flight; fetching
+46 verbose get https://registry.npmjs.org/json-server not expired, no request
+47 silly addNameTag next cb for json-server with tag latest
+48 silly addNamed json-server@0.17.0
+49 verbose addNamed "0.17.0" is a plain semver version for json-server
+50 silly mapToRegistry name json-server
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/json-server
+54 verbose addRemoteTarball https://registry.npmjs.org/json-server/-/json-server-0.17.0.tgz not in flight; adding
+55 verbose addRemoteTarball [ 'https://registry.npmjs.org/json-server/-/json-server-0.17.0.tgz',
+55 verbose addRemoteTarball   '6db3d1d1028a90c4642ff5e56274d106348ec44c' ]
+56 info retry fetch attempt 1 at 1:38:57 PM
+57 info attempt registry request try #1 at 1:38:57 PM
+58 http fetch GET https://registry.npmjs.org/json-server/-/json-server-0.17.0.tgz
+59 http fetch 200 https://registry.npmjs.org/json-server/-/json-server-0.17.0.tgz
+60 silly fetchAndShaCheck shasum 6db3d1d1028a90c4642ff5e56274d106348ec44c
+61 verbose addTmpTarball /tmp/npm-8611-97e4fb3f/registry.npmjs.org/json-server/-/json-server-0.17.0.tgz not in flight; adding
+62 verbose addTmpTarball already have metadata; skipping unpack for json-server@0.17.0
+63 silly cache afterAdd json-server@0.17.0
+64 verbose afterAdd /home/natalia/.npm/json-server/0.17.0/package/package.json not in flight; writing
+65 verbose afterAdd /home/natalia/.npm/json-server/0.17.0/package/package.json written
+66 silly fetchNamedPackageData body-parser
+67 silly mapToRegistry name body-parser
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+71 silly fetchNamedPackageData chalk
+72 silly mapToRegistry name chalk
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/chalk
+76 silly fetchNamedPackageData compression
+77 silly mapToRegistry name compression
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry https://registry.npmjs.org/
+80 silly mapToRegistry uri https://registry.npmjs.org/compression
+81 silly fetchNamedPackageData connect-pause
+82 silly mapToRegistry name connect-pause
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry uri https://registry.npmjs.org/connect-pause
+86 silly fetchNamedPackageData cors
+87 silly mapToRegistry name cors
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npmjs.org/
+90 silly mapToRegistry uri https://registry.npmjs.org/cors
+91 silly fetchNamedPackageData errorhandler
+92 silly mapToRegistry name errorhandler
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry uri https://registry.npmjs.org/errorhandler
+96 silly fetchNamedPackageData express
+97 silly mapToRegistry name express
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry uri https://registry.npmjs.org/express
+101 silly fetchNamedPackageData express-urlrewrite
+102 silly mapToRegistry name express-urlrewrite
+103 silly mapToRegistry using default registry
+104 silly mapToRegistry registry https://registry.npmjs.org/
+105 silly mapToRegistry uri https://registry.npmjs.org/express-urlrewrite
+106 silly fetchNamedPackageData json-parse-helpfulerror
+107 silly mapToRegistry name json-parse-helpfulerror
+108 silly mapToRegistry using default registry
+109 silly mapToRegistry registry https://registry.npmjs.org/
+110 silly mapToRegistry uri https://registry.npmjs.org/json-parse-helpfulerror
+111 silly fetchNamedPackageData lodash
+112 silly mapToRegistry name lodash
+113 silly mapToRegistry using default registry
+114 silly mapToRegistry registry https://registry.npmjs.org/
+115 silly mapToRegistry uri https://registry.npmjs.org/lodash
+116 silly fetchNamedPackageData lodash-id
+117 silly mapToRegistry name lodash-id
+118 silly mapToRegistry using default registry
+119 silly mapToRegistry registry https://registry.npmjs.org/
+120 silly mapToRegistry uri https://registry.npmjs.org/lodash-id
+121 silly fetchNamedPackageData lowdb
+122 silly mapToRegistry name lowdb
+123 silly mapToRegistry using default registry
+124 silly mapToRegistry registry https://registry.npmjs.org/
+125 silly mapToRegistry uri https://registry.npmjs.org/lowdb
+126 silly fetchNamedPackageData method-override
+127 silly mapToRegistry name method-override
+128 silly mapToRegistry using default registry
+129 silly mapToRegistry registry https://registry.npmjs.org/
+130 silly mapToRegistry uri https://registry.npmjs.org/method-override
+131 silly fetchNamedPackageData morgan
+132 silly mapToRegistry name morgan
+133 silly mapToRegistry using default registry
+134 silly mapToRegistry registry https://registry.npmjs.org/
+135 silly mapToRegistry uri https://registry.npmjs.org/morgan
+136 silly fetchNamedPackageData nanoid
+137 silly mapToRegistry name nanoid
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry https://registry.npmjs.org/
+140 silly mapToRegistry uri https://registry.npmjs.org/nanoid
+141 silly fetchNamedPackageData please-upgrade-node
+142 silly mapToRegistry name please-upgrade-node
+143 silly mapToRegistry using default registry
+144 silly mapToRegistry registry https://registry.npmjs.org/
+145 silly mapToRegistry uri https://registry.npmjs.org/please-upgrade-node
+146 silly fetchNamedPackageData pluralize
+147 silly mapToRegistry name pluralize
+148 silly mapToRegistry using default registry
+149 silly mapToRegistry registry https://registry.npmjs.org/
+150 silly mapToRegistry uri https://registry.npmjs.org/pluralize
+151 silly fetchNamedPackageData server-destroy
+152 silly mapToRegistry name server-destroy
+153 silly mapToRegistry using default registry
+154 silly mapToRegistry registry https://registry.npmjs.org/
+155 silly mapToRegistry uri https://registry.npmjs.org/server-destroy
+156 silly fetchNamedPackageData update-notifier
+157 silly mapToRegistry name update-notifier
+158 silly mapToRegistry using default registry
+159 silly mapToRegistry registry https://registry.npmjs.org/
+160 silly mapToRegistry uri https://registry.npmjs.org/update-notifier
+161 silly fetchNamedPackageData yargs
+162 silly mapToRegistry name yargs
+163 silly mapToRegistry using default registry
+164 silly mapToRegistry registry https://registry.npmjs.org/
+165 silly mapToRegistry uri https://registry.npmjs.org/yargs
+166 verbose request uri https://registry.npmjs.org/compression
+167 verbose request no auth needed
+168 info attempt registry request try #1 at 1:38:58 PM
+169 http request GET https://registry.npmjs.org/compression
+170 verbose request uri https://registry.npmjs.org/connect-pause
+171 verbose request no auth needed
+172 info attempt registry request try #1 at 1:38:58 PM
+173 http request GET https://registry.npmjs.org/connect-pause
+174 verbose request uri https://registry.npmjs.org/errorhandler
+175 verbose request no auth needed
+176 info attempt registry request try #1 at 1:38:58 PM
+177 http request GET https://registry.npmjs.org/errorhandler
+178 verbose request uri https://registry.npmjs.org/express-urlrewrite
+179 verbose request no auth needed
+180 info attempt registry request try #1 at 1:38:58 PM
+181 http request GET https://registry.npmjs.org/express-urlrewrite
+182 verbose request uri https://registry.npmjs.org/json-parse-helpfulerror
+183 verbose request no auth needed
+184 info attempt registry request try #1 at 1:38:58 PM
+185 http request GET https://registry.npmjs.org/json-parse-helpfulerror
+186 verbose request uri https://registry.npmjs.org/lodash-id
+187 verbose request no auth needed
+188 info attempt registry request try #1 at 1:38:58 PM
+189 http request GET https://registry.npmjs.org/lodash-id
+190 verbose request uri https://registry.npmjs.org/lowdb
+191 verbose request no auth needed
+192 info attempt registry request try #1 at 1:38:58 PM
+193 http request GET https://registry.npmjs.org/lowdb
+194 verbose request uri https://registry.npmjs.org/method-override
+195 verbose request no auth needed
+196 info attempt registry request try #1 at 1:38:58 PM
+197 http request GET https://registry.npmjs.org/method-override
+198 verbose request uri https://registry.npmjs.org/please-upgrade-node
+199 verbose request no auth needed
+200 info attempt registry request try #1 at 1:38:58 PM
+201 http request GET https://registry.npmjs.org/please-upgrade-node
+202 verbose request uri https://registry.npmjs.org/pluralize
+203 verbose request no auth needed
+204 info attempt registry request try #1 at 1:38:58 PM
+205 http request GET https://registry.npmjs.org/pluralize
+206 verbose request uri https://registry.npmjs.org/server-destroy
+207 verbose request no auth needed
+208 info attempt registry request try #1 at 1:38:58 PM
+209 http request GET https://registry.npmjs.org/server-destroy
+210 verbose request uri https://registry.npmjs.org/yargs
+211 verbose request no auth needed
+212 info attempt registry request try #1 at 1:38:58 PM
+213 http request GET https://registry.npmjs.org/yargs
+214 verbose request uri https://registry.npmjs.org/body-parser
+215 verbose request no auth needed
+216 info attempt registry request try #1 at 1:38:58 PM
+217 verbose etag W/"69165633b8917311c8a5b29b5aa3a438"
+218 verbose lastModified Fri, 29 Nov 2019 09:32:45 GMT
+219 http request GET https://registry.npmjs.org/body-parser
+220 verbose request uri https://registry.npmjs.org/chalk
+221 verbose request no auth needed
+222 info attempt registry request try #1 at 1:38:58 PM
+223 verbose etag W/"ee1019564dc1c941779ddd87d995fd88"
+224 verbose lastModified Thu, 11 Feb 2021 00:27:32 GMT
+225 http request GET https://registry.npmjs.org/chalk
+226 verbose request uri https://registry.npmjs.org/express
+227 verbose request no auth needed
+228 info attempt registry request try #1 at 1:38:58 PM
+229 verbose etag W/"b02a21fdbe09707e9f7c8992466ba40a"
+230 verbose lastModified Fri, 06 Nov 2020 02:46:32 GMT
+231 http request GET https://registry.npmjs.org/express
+232 verbose request uri https://registry.npmjs.org/lodash
+233 verbose request no auth needed
+234 info attempt registry request try #1 at 1:38:58 PM
+235 verbose etag W/"feaccb6593417fa75b796ade37a40102"
+236 verbose lastModified Sun, 28 Mar 2021 02:25:44 GMT
+237 http request GET https://registry.npmjs.org/lodash
+238 verbose request uri https://registry.npmjs.org/cors
+239 verbose request no auth needed
+240 info attempt registry request try #1 at 1:38:58 PM
+241 verbose etag W/"85e94e318b6208a5217c4f2dd1c686f7"
+242 verbose lastModified Tue, 18 May 2021 17:15:01 GMT
+243 http request GET https://registry.npmjs.org/cors
+244 verbose request uri https://registry.npmjs.org/nanoid
+245 verbose request no auth needed
+246 info attempt registry request try #1 at 1:38:58 PM
+247 verbose etag W/"bcab76065e652cd7e18e0884ade99759"
+248 verbose lastModified Wed, 13 Oct 2021 23:00:52 GMT
+249 http request GET https://registry.npmjs.org/nanoid
+250 verbose request uri https://registry.npmjs.org/morgan
+251 verbose request no auth needed
+252 info attempt registry request try #1 at 1:38:58 PM
+253 verbose etag W/"f426cc89ff0a3e18d6a5f0ce7c52378e"
+254 verbose lastModified Sun, 12 Jul 2020 14:11:04 GMT
+255 http request GET https://registry.npmjs.org/morgan
+256 http 200 https://registry.npmjs.org/yargs
+257 verbose headers { date: 'Wed, 05 Jan 2022 04:38:58 GMT',
+257 verbose headers   'content-type': 'application/json',
+257 verbose headers   'transfer-encoding': 'chunked',
+257 verbose headers   connection: 'keep-alive',
+257 verbose headers   'cf-ray': '6c8a05266fd8832c-KIX',
+257 verbose headers   age: '55',
+257 verbose headers   'cache-control': 'public, max-age=300',
+257 verbose headers   etag: 'W/"b53a996ed2d7d5b413b71b8a007a30a1"',
+257 verbose headers   'last-modified': 'Thu, 23 Dec 2021 22:42:16 GMT',
+257 verbose headers   vary: 'accept-encoding, accept',
+257 verbose headers   'cf-cache-status': 'HIT',
+257 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+257 verbose headers   'x-amz-replication-status': 'COMPLETED',
+257 verbose headers   server: 'cloudflare',
+257 verbose headers   'content-encoding': 'gzip' }
+258 silly get cb [ 200,
+258 silly get   { date: 'Wed, 05 Jan 2022 04:38:58 GMT',
+258 silly get     'content-type': 'application/json',
+258 silly get     'transfer-encoding': 'chunked',
+258 silly get     connection: 'keep-alive',
+258 silly get     'cf-ray': '6c8a05266fd8832c-KIX',
+258 silly get     age: '55',
+258 silly get     'cache-control': 'public, max-age=300',
+258 silly get     etag: 'W/"b53a996ed2d7d5b413b71b8a007a30a1"',
+258 silly get     'last-modified': 'Thu, 23 Dec 2021 22:42:16 GMT',
+258 silly get     vary: 'accept-encoding, accept',
+258 silly get     'cf-cache-status': 'HIT',
+258 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+258 silly get     'x-amz-replication-status': 'COMPLETED',
+258 silly get     server: 'cloudflare',
+258 silly get     'content-encoding': 'gzip' } ]
+259 verbose get saving yargs to /home/natalia/.npm/registry.npmjs.org/yargs/.cache.json
+260 verbose request uri https://registry.npmjs.org/update-notifier
+261 verbose request no auth needed
+262 info attempt registry request try #1 at 1:38:58 PM
+263 verbose etag W/"e2adc3d4618e483f09497c5f76e77707"
+264 verbose lastModified Sun, 01 Nov 2020 19:01:52 GMT
+265 http request GET https://registry.npmjs.org/update-notifier
+266 verbose stack Error: Missing required argument #1
+266 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+266 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+266 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+266 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+266 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+266 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+266 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+266 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+266 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+266 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+267 verbose cwd /home/natalia/VisualStudio/Practice/sketch/comp
+268 error Linux 5.4.0-91-generic
+269 error argv "/usr/bin/node" "/usr/bin/npm" "install" "json-server" "-g"
+270 error node v8.10.0
+271 error npm  v3.5.2
+272 error code EMISSINGARG
+273 error typeerror Error: Missing required argument #1
+273 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+273 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+273 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+273 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+273 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+273 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+273 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+273 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+273 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+273 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+274 error typeerror This is an error with npm itself. Please report this error at:
+274 error typeerror     <http://github.com/npm/npm/issues>
+275 verbose exit [ 1, true ]
